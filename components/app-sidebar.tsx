@@ -51,7 +51,7 @@ const data = {
             items: [
                 {
                     title: 'Connect channel',
-                    url: '#',
+                    url: '/connect-account',
                     icon: Plug
                 },
             ]
@@ -78,7 +78,7 @@ const data = {
 
 export function AppSidebar() {
     return (
-        <Sidebar>
+        <Sidebar className="z-50">
             <SidebarHeader>
                 <NavHeader />
             </SidebarHeader>

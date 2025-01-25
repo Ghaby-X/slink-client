@@ -7,7 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <SidebarProvider>
             <AppSidebar />
             <SidebarInset>
-                <header className="sticky top-0 flex h-16 shrink-0 z-50 items-center gap-2 border-b bg-background px-4">
+                <header className="sticky top-0 flex h-16 shrink-0 z-40 items-center gap-2 border-b bg-background px-4">
                     <SidebarTrigger className="-ml-1" />
                     <Separator orientation="vertical" className="mr-2 h-4" />
                 </header>

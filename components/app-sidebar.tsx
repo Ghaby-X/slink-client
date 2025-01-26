@@ -34,7 +34,7 @@ const data = {
                 },
                 {
                     title: "Scheduled posts",
-                    url: "#",
+                    url: "/schedule",
                     icon: Calendar,
                 },
                 {
